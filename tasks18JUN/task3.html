@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <h1>Basic HTML Form</h1>
+        <fieldset>
+            <legend>Name</legend>
+            <br>
+            <div>
+                <label for="fn">First Name</label>
+                <br>
+                <input id="fn" type="text" required>
+            </div>
+            <br>
+            <div>
+                <label for="ln">Last Name</label>
+                <br>
+                <input id="ln" type="text" required>
+            </div>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Other Questions</legend>
+            <div>
+                <label >Choose a drink: </label>
+                <br>
+                <input id="co" type="radio" name="drink" value="coffee">
+                <label for="co">Coffee</label>
+                <br>
+                <input id="te" type="radio" name="drink" value="tea">
+                <label for="te">Tea</label>
+                <br>
+                <input id="ho" type="radio" name="drink" value="hotChocolate">
+                <label for="ho">hot chocolate</label>
+            </div>
+            <br>
+            <div>
+                <label >What ice cream do you like? </label>
+                <br>
+                <input id="ch" type="checkbox" name="iceCream" value="Chocolate">
+                <label for="ch">Chocolate</label>
+                <br>
+                <input id="chp" type="checkbox" name="iceCream" value="Chocolate Pudding">
+                <label for="chp">Chocolate Pudding</label>
+                <br>
+                <input id="chpb" type="checkbox" name="iceCream" value="chocolatePeanutButter">
+                <label for="chpb">Chocolate Peanut Butter</label>
+                <br>
+                <input id="va" type="checkbox" name="iceCream" value="vanilla">
+                <label for="va">Vanilla</label>
+                <br>
+                <input id="str" type="checkbox" name="iceCream" value="strawberry">
+                <label for="str">Strawberry</label>
+            </div>
+            <br>
+            <div>
+                <label >Select a school:</label>
+                <br>
+                <select name="school" >
+                    <option value="Harvard">Harvard</option>
+                    <option value="oxford">Oxford</option>
+                    <option value="cambridge">Cambridge</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label >Please provide comments:</label>
+                <br>
+                <textarea name="comments"  cols="40" rows="5"></textarea>
+            </div>
+
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit">
+        <br>
+    </fieldset>
+</body>
+</html>

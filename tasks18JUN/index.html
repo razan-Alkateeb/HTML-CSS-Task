@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>My Form</h1>
+
+    <main>
+        <form method="git" target="_blank">
+            <section>
+                <div>
+                    <input type="hidden" name="id" value="123">
+                </div>
+                <br>
+                <div>
+                    <label for="us">UserName</label>
+                    <input id="us" type="text" placeholder="enter user name" required autofocus>
+                </div>
+                <br>
+                <div>
+                    <label for="ps">Password</label>
+                    <input id="ps" type="password" placeholder="password" minlength="4" maxlength="8" required>
+                </div>
+                <br>
+                <div>
+                    <label for="em">Email</label>
+                    <input id="em" type="email" placeholder="name@gmail.com" required>
+                </div>
+            </section>
+
+            <br>
+            <div>
+                <label for="co">Color</label>
+                <input id="co" type="color">
+            </div>
+            <br>
+            <div>
+                <label for="ra">Range</label>
+                <input id="ra" type="range" min="10" max="100" step="10" value="50">
+            </div>
+            <br>
+            <div>
+                <label for="num">number</label>
+                <input id="num" type="number" min="0" max="10" step="1" value="0">
+            </div>
+            <br>
+            <div>
+                <h3>Choose your country</h3>
+                <input id="jor" type="radio" name="country1" value="1" checked>
+                <label for="jor">jordan</label>
+                <br>
+                <input id="am" type="radio" name="country2" value="2">
+                <label for="am">America</label>
+                <br>
+                <input id="tur" type="radio" name="country3" value="3">
+                <label for="tur">Turkiye</label>
+            </div>
+            <br>
+            <div>
+                <h3>Choose your language</h3>
+                <input id="c++" type="checkbox" name="language1" value="1" checked>
+                <label for="c++">C++</label>
+                <br>
+                <input id="py" type="checkbox" name="language2" value="2">
+                <label for="py">Python</label>
+                <br>
+                <input id="java" type="checkbox" name="language3" value="3">
+                <label for="java">Java</label>
+            </div>
+            <br>
+            <div>
+                <label for="bro">Choose your browser from the list:</label>
+                <input list="bro" name="browser" id="browser">
+                <datalist id="bro">
+                    <option value="Edge">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Safari">
+                </datalist>
+            </div>
+            <br>
+            <div>
+                <label>Tell me about yourself</label>
+                <br>
+                <textarea name="text area" cols="20" rows="10" placeholder="write here "></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Enter your CV</label>
+                <input type="file">
+            </div>
+            <br>
+            <div>
+                <label>Search here</label>
+                <input type="search">
+            </div>
+            <br>
+            <div>
+                <label>Enter the data </label>
+                <input type="date">
+                <input type="month">
+                <input type="time">
+            </div>
+            <br>
+            <div>
+                <input type="submit">
+                <input type="reset">
+            </div>
+
+        </form>
+    </main>
+
+
+    <hr>
+    <hr>
+    <audio controls autoplay muted>
+        <source src="./media/audio.mp3" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    <hr>
+    <video width="300" height="200" poster="./media/image.jpg" controls loop>
+        <source src="./media/vedio.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <hr>
+    <iframe width="420" height="315" frameborder="1"  src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+    <hr>
+    <footer>
+        <figure>
+            <img src="./media/download.png" alt="car image">
+            <figcaption>This is the logo</figcaption>
+        </figure>
+    </footer>
+
+</body>
+
+</html>

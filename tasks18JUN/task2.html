@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div align=center>
+    <h1>Employee Interests Survey form</h1> 
+   <form >
+    <div >
+        <label for="name">Enter your Name</label>
+        <input id="name" type="text" required>
+    </div>
+    <br>
+    <div>
+        <label for="department">Enter your department</label>
+        <input id="department" type="text" required>
+    </div>
+    <br>
+    <div>
+        <label >Tell us a little about yourself:</label>
+        <textarea name="text"  cols="30" rows="5"></textarea>
+    </div>
+    <br>
+    <div>
+        <label >Do you exercise at home? </label>
+        <input id="yes" type="radio" name="exercise" value="yes">
+        <label for="yes">Yes</label>
+        <input id="no" type="radio" name="exercise" value="no">
+        <label for="no">No</label>
+    </div>
+    <br>
+    <div>
+        <label >How do you like to read about your favorite topics?</label>
+        <br>
+        <input type="checkbox" value="books"><label >Books</label>
+        <input type="checkbox" value="onlineResources"><label >Online resources</label>
+        <input type="checkbox" value="phoneApps"><label >Phone apps</label>
+        <input type="checkbox" value="magazines"><label >Magazines</label>
+    </div>
+    <br>
+    <div>
+        <label >What genre of movies do you like? </label>
+        <select name="movies" >
+            <option value="comedy">Comedy</option>
+            <option value="drama">Drama</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Submit form">
+    </div>
+    <br>
+   </form>
+   </div>
+</body>
+</html>
