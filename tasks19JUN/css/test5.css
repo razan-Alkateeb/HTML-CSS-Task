@@ -1,0 +1,29 @@
+#box1 {
+    background-color: white;
+    padding: 10px;
+    border: 1px black solid;
+    width: 70%;
+}
+
+#box2 {
+    background-color: white;
+    padding: 10px;
+    border: 1px black dashed;
+    width: 70%;
+}
+
+#box3 {
+    background-color: white;
+    padding: 10px;
+    color: blueviolet;
+    border: 1px black solid;
+    width: 70%;
+}
+
+.one {
+    background-color: orange;
+}
+
+.two {
+    background-color: yellow;
+}
