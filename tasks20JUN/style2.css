@@ -1,0 +1,49 @@
+/* .cards{
+    display: inline-block;
+    margin: 5px;
+    border: 1px black solid;
+    width: 30%;
+} */
+
+
+
+
+div {
+    border: 1px solid black;
+    display: inline-block;
+    width: 30%;
+    height: 600px;
+    float: left;
+    margin: 1.5%;
+    /* padding: 1px; */
+    margin-top: 0%;
+    position: relative;
+}
+
+
+.footer-one {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 90%;
+    color: white;
+    bottom: 0%;
+    font-size: 20px;
+    padding: 15px;
+    position: absolute;
+}
+
+
+
+.footer-two {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 90%;
+    color: white;
+    bottom: 0%;
+    font-size: 20px;
+    padding: 15px;
+    position: absolute;
+}
+
+
+img {
+    width: 100%;
+}

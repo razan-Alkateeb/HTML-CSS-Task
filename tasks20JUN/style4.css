@@ -1,0 +1,56 @@
+.contaner1 {
+    border: 1px dashed black;
+    display: inline-block;
+}
+
+.contaner2 {
+    border: 1px dashed black;
+    display: inline-block;
+    max-height: 100px;
+
+
+
+}
+
+.contaner3 {
+    border: 1px dashed black;
+    display: inline-block;
+    position: relative;
+
+}
+
+span {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+
+.test1 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.test2 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+}
+
+.test3 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 10px;
+}

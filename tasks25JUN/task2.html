@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise#2</title>
+    <style>
+        .box {
+            background: linear-gradient(green, aqua);
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            animation: 8s linear infinite;
+            animation-name: box-color;
+            animation-fill-mode: backwards;
+        }
+
+        @keyframes box-color {
+            0% {
+                transform: translate(415%, 10px);
+            }
+
+            15% {
+                transform: translate(415%, 550px);
+                background: linear-gradient(aqua, blue);
+            }
+
+            30% {
+                transform: translate(100%, 550px);
+                background: linear-gradient(blue, yellow);
+            }
+
+            40% {
+                transform: translate(0%, 550px);
+                background: linear-gradient(yellow, orange);
+            }
+
+            60% {
+                transform: translate(0%, 0px);
+                background: linear-gradient(orange, brown);
+            }
+
+            70% {
+                transform: translate(30%, 0px);
+            }
+
+            85% {
+                transform: translate(100%, 0px);
+                background: linear-gradient(brown, green);
+            }
+
+            95% {
+                transform: translate(150%, 0px);
+            }
+
+            97% {
+                transform: translate(150%, 0px);
+                background: linear-gradient(transparent, transparent);
+            }
+
+            100% {
+                transform: translate(250%, 0px);
+                background: linear-gradient(transparent, transparent);
+            }
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>
